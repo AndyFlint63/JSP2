@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+This is a test JSP Page
 </body>
 </html>
