@@ -9,4 +9,12 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+   <servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>com.af.test.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/MyJsp</url-pattern>
+    </servlet-mapping>
 </web-app>
