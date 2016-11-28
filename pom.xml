@@ -75,6 +75,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				
 				<configuration>
+				<webXml>WebContent\WEB-INF\web.xml</webXml>
 					<webResources>
 						<resource>
 							<directory>${project.build.directory}/site</directory>
