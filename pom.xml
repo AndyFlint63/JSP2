@@ -4,6 +4,7 @@
   <artifactId>JSP2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <name>jsp2</name>
   	<properties>
 		<jersey.version>2.24.1</jersey.version>
 		<jersey.config.test.container.port>9998</jersey.config.test.container.port>
@@ -37,6 +38,7 @@
 		</dependency>
   </dependencies>
   <build>
+    <finalName>jsp2</finalName>
     <sourceDirectory>src</sourceDirectory>
     
     <plugins>
@@ -76,9 +78,13 @@
 				
 				<configuration>
 				<webXml>WebContent\WEB-INF\web.xml</webXml>
+				
 					<webResources>
 						<resource>
 							<directory>${project.build.directory}/site</directory>
+						</resource>
+						<resource>
+							<directory>${project.basedir}/WebContent</directory>
 						</resource>
 						  <!--  <resource>
 							<directory>${project.build.directory}/jaxrs-analyzer</directory>
