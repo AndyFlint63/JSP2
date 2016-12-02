@@ -23,7 +23,7 @@
         <servlet-class>com.af.test.RestTestSe</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Hello</servlet-name>
-        <url-pattern>/MyJsp</url-pattern>
+        <servlet-name>RestTestServlet</servlet-name>
+        <url-pattern>/RestTestServlet</url-pattern>
     </servlet-mapping>
 </web-app>
