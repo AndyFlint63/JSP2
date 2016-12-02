@@ -19,11 +19,11 @@
     </servlet-mapping>
     
        <servlet>
-        <servlet-name>RestTestServlet</servlet-name>
-        <servlet-class>com.af.test.RestTestSe</servlet-class>
+        <servlet-name>RestTest</servlet-name>
+        <servlet-class>com.af.test.RestTestServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>RestTestServlet</servlet-name>
+        <servlet-name>RestTest</servlet-name>
         <url-pattern>/RestTestServlet</url-pattern>
     </servlet-mapping>
 </web-app>
