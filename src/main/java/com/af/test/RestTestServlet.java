@@ -21,7 +21,7 @@ public class RestTestServlet extends HttpServlet {
 
 		  try {
 
-			URL url = new URL("http://localhost:8080/resttest/crunchify/ctofservice/");
+			URL url = new URL("http://192.168.168.129:8084/resttest/crunchify/ctofservice/");
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET");
 			conn.setRequestProperty("Accept", "application/json");
