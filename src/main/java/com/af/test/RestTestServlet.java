@@ -25,11 +25,12 @@ public class RestTestServlet extends HttpServlet {
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET");
 			conn.setRequestProperty("Accept", "application/json");
+			conn.getResponseMessage();
 
-			if (conn.getResponseCode() != 200) {
-				throw new RuntimeException("Failed : HTTP error code : "
-						+ conn.getResponseCode());
-			}
+			//if (conn.getResponseCode() != 200) {
+			//	throw new RuntimeException("Failed : HTTP error code : "
+			//			+ conn.getResponseCode());
+			//}
 
 			BufferedReader br = new BufferedReader(new InputStreamReader(
 				(conn.getInputStream())));
