@@ -17,4 +17,13 @@
         <servlet-name>Hello</servlet-name>
         <url-pattern>/MyJsp</url-pattern>
     </servlet-mapping>
+    
+       <servlet>
+        <servlet-name>RestTestServlet</servlet-name>
+        <servlet-class>com.af.test.RestTestSe</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/MyJsp</url-pattern>
+    </servlet-mapping>
 </web-app>
