@@ -18,7 +18,7 @@
         <url-pattern>/MyJsp</url-pattern>
     </servlet-mapping>
     
-       <servlet>
+    <servlet>
         <servlet-name>RestTest</servlet-name>
         <servlet-class>com.af.test.RestTestServlet</servlet-class>
     </servlet>

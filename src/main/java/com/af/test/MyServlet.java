@@ -57,7 +57,8 @@ public class MyServlet extends HttpServlet {
 	                      "<title> Crunchify.com JSP Servlet Example  </title> \n" +
 	                    "</head> \n" +
 	                    "<body> <div align='center'> \n" +
-	                      "<style= \"font-size=\"12px\" color='black'\"" + "\">" +
+	                      "<style= \"font-size=\"19px\" color='red'\"" + "\">" +
+	                      	"Output from servlet " + request.getMethod() + "<br>" +
 	                        "Username: " + username + " <br> " + 
 	                        "Password: " + password +
 	                    "</font></body> \n" +

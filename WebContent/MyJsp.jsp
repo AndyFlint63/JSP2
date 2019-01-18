@@ -5,8 +5,7 @@
 <html>
 <style type="text/css">
 body {
-    background-image:
-        url('http://cdn.crunchify.com/wp-content/uploads/2013/03/Crunchify.bg_.300.png');
+    
 }
 </style>
  
